@@ -1,0 +1,4 @@
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Common\bin\Debug\CmsTalkToCms.Common.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Common\bin\Debug\CmsTalkToCms.Common.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Common\obj\Debug\CmsTalkToCms.Common.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Common\obj\Debug\CmsTalkToCms.Common.pdb

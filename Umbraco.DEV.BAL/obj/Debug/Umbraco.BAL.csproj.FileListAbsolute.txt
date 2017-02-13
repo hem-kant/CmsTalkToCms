@@ -1,0 +1,5 @@
+D:\Dream\CmsTalkToCms\Umbraco.DEV.BAL\bin\Debug\Umbraco.DEV.BAL.dll
+D:\Dream\CmsTalkToCms\Umbraco.DEV.BAL\bin\Debug\Umbraco.DEV.BAL.pdb
+D:\Dream\CmsTalkToCms\Umbraco.DEV.BAL\obj\Debug\Umbraco.DEV.BAL.dll
+D:\Dream\CmsTalkToCms\Umbraco.DEV.BAL\obj\Debug\Umbraco.DEV.BAL.pdb
+D:\Dream\CmsTalkToCms\Umbraco.DEV.BAL\obj\Debug\Umbraco.BAL.csprojResolveAssemblyReference.cache

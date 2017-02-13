@@ -1,0 +1,14 @@
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\SDLTridion.TridionObjects.dll
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\SDLTridion.TridionObjects.pdb
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\obj\Debug\SDLTridion.TridionObjects.dll
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\obj\Debug\SDLTridion.TridionObjects.pdb
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\obj\Debug\SDLTridion.TridionObjects.csprojResolveAssemblyReference.cache
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\SDLTridion.CoreService.dll
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\SDLTridion.CoreService.pdb
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\CmsTalkToCms.GenericDataStructure.dll
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\CmsTalkToCms.GenericDataStructure.pdb
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\Generic.Common.Logging.dll
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\log4net.dll
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\Generic.Common.Logging.pdb
+D:\Dream\CmsTalkToCms\SDLTridion.TridionObjects\bin\Debug\log4net.xml

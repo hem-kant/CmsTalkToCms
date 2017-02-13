@@ -1,0 +1,7 @@
+D:\Dream\CmsTalkToCms\SDLTridion.CoreService\bin\Debug\SDLTridion.CoreService.dll
+D:\Dream\CmsTalkToCms\SDLTridion.CoreService\bin\Debug\SDLTridion.CoreService.pdb
+D:\Dream\CmsTalkToCms\SDLTridion.CoreService\bin\Debug\Tridion.Common.dll
+D:\Dream\CmsTalkToCms\SDLTridion.CoreService\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+D:\Dream\CmsTalkToCms\SDLTridion.CoreService\obj\Debug\SDLTridion.CoreService.dll
+D:\Dream\CmsTalkToCms\SDLTridion.CoreService\obj\Debug\SDLTridion.CoreService.pdb
+D:\Dream\CmsTalkToCms\SDLTridion.CoreService\obj\Debug\SDLTridion.CoreService.csprojResolveAssemblyReference.cache

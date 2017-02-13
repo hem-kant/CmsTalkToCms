@@ -1,0 +1,24 @@
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.Client.exe.config
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.Client.exe
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.Client.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\SDLTridion.CoreService.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\SDLTridion.TridionObjects.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\SDLTridion.CoreService.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\SDLTridion.TridionObjects.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\obj\Debug\CmsTalkToCms.Client.csprojResolveAssemblyReference.cache
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\obj\Debug\CmsTalkToCms.Client.exe
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\obj\Debug\CmsTalkToCms.Client.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.BusinessConnector.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.Common.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.BusinessConnector.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.Common.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.GenericDataStructure.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.GenericDataStructure.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\Generic.Common.Logging.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\log4net.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\Generic.Common.Logging.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\log4net.xml
+D:\Production Project\MVP-Proj-Git\CmsTalkToCms\CmsTalkToCms.Client\bin\Debug\CmsTalkToCms.Client.exe.config
+D:\Production Project\MVP-Proj-Git\CmsTalkToCms\CmsTalkToCms.Client\obj\Debug\CmsTalkToCms.Client.exe
+D:\Production Project\MVP-Proj-Git\CmsTalkToCms\CmsTalkToCms.Client\obj\Debug\CmsTalkToCms.Client.pdb

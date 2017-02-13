@@ -1,0 +1,4 @@
+D:\Dream\CmsTalkToCms\CmsTalkToCms.GenericDataStructure\bin\Debug\CmsTalkToCms.GenericDataStructure.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.GenericDataStructure\bin\Debug\CmsTalkToCms.GenericDataStructure.pdb
+D:\Dream\CmsTalkToCms\CmsTalkToCms.GenericDataStructure\obj\Debug\CmsTalkToCms.GenericDataStructure.dll
+D:\Dream\CmsTalkToCms\CmsTalkToCms.GenericDataStructure\obj\Debug\CmsTalkToCms.GenericDataStructure.pdb

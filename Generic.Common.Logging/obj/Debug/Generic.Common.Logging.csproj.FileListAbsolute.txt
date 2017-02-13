@@ -1,0 +1,7 @@
+D:\Dream\CmsTalkToCms\Generic.Common.Logging\bin\Debug\Generic.Common.Logging.dll
+D:\Dream\CmsTalkToCms\Generic.Common.Logging\bin\Debug\Generic.Common.Logging.pdb
+D:\Dream\CmsTalkToCms\Generic.Common.Logging\bin\Debug\log4net.dll
+D:\Dream\CmsTalkToCms\Generic.Common.Logging\bin\Debug\log4net.xml
+D:\Dream\CmsTalkToCms\Generic.Common.Logging\obj\Debug\Generic.Common.Logging.dll
+D:\Dream\CmsTalkToCms\Generic.Common.Logging\obj\Debug\Generic.Common.Logging.pdb
+D:\Dream\CmsTalkToCms\Generic.Common.Logging\obj\Debug\Generic.Common.Logging.csprojResolveAssemblyReference.cache

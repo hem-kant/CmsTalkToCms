@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AddNewsItems">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="parentId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="image" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subheader" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="text" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddNewsItemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewsItemsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getNewsItems">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getNewsItemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getNewsItemsResult" type="tns:News" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="News">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="bodyText" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="subheader" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="image" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getNewsList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getNewsListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getNewsListResult" type="tns:ArrayOfNews" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfNews">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="News" nillable="true" type="tns:News" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DeleteNews">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteNewsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteNewsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddNewsItemsSoapIn">
+    <wsdl:part name="parameters" element="tns:AddNewsItems" />
+  </wsdl:message>
+  <wsdl:message name="AddNewsItemsSoapOut">
+    <wsdl:part name="parameters" element="tns:AddNewsItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getNewsItemsSoapIn">
+    <wsdl:part name="parameters" element="tns:getNewsItems" />
+  </wsdl:message>
+  <wsdl:message name="getNewsItemsSoapOut">
+    <wsdl:part name="parameters" element="tns:getNewsItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getNewsListSoapIn">
+    <wsdl:part name="parameters" element="tns:getNewsList" />
+  </wsdl:message>
+  <wsdl:message name="getNewsListSoapOut">
+    <wsdl:part name="parameters" element="tns:getNewsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteNewsSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteNews" />
+  </wsdl:message>
+  <wsdl:message name="DeleteNewsSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteNewsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UmbracoCrudOperationsSoap">
+    <wsdl:operation name="AddNewsItems">
+      <wsdl:input message="tns:AddNewsItemsSoapIn" />
+      <wsdl:output message="tns:AddNewsItemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getNewsItems">
+      <wsdl:input message="tns:getNewsItemsSoapIn" />
+      <wsdl:output message="tns:getNewsItemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getNewsList">
+      <wsdl:input message="tns:getNewsListSoapIn" />
+      <wsdl:output message="tns:getNewsListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteNews">
+      <wsdl:input message="tns:DeleteNewsSoapIn" />
+      <wsdl:output message="tns:DeleteNewsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UmbracoCrudOperationsSoap" type="tns:UmbracoCrudOperationsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddNewsItems">
+      <soap:operation soapAction="http://tempuri.org/AddNewsItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNewsItems">
+      <soap:operation soapAction="http://tempuri.org/getNewsItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNewsList">
+      <soap:operation soapAction="http://tempuri.org/getNewsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteNews">
+      <soap:operation soapAction="http://tempuri.org/DeleteNews" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UmbracoCrudOperationsSoap12" type="tns:UmbracoCrudOperationsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddNewsItems">
+      <soap12:operation soapAction="http://tempuri.org/AddNewsItems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNewsItems">
+      <soap12:operation soapAction="http://tempuri.org/getNewsItems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNewsList">
+      <soap12:operation soapAction="http://tempuri.org/getNewsList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteNews">
+      <soap12:operation soapAction="http://tempuri.org/DeleteNews" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UmbracoCrudOperations">
+    <wsdl:port name="UmbracoCrudOperationsSoap" binding="tns:UmbracoCrudOperationsSoap">
+      <soap:address location="http://localhost:56002/Webservices/UmbracoCrudOperations.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UmbracoCrudOperationsSoap12" binding="tns:UmbracoCrudOperationsSoap12">
+      <soap12:address location="http://localhost:56002/Webservices/UmbracoCrudOperations.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
